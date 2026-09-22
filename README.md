@@ -18,20 +18,20 @@ TTS 部品の責務 (`SpeakItem.audio` は in-process 専用でワイヤを越�
 
 ## 依存している Fizz 部品
 
-[fizz-protocol](https://github.com/Aid-On/fizz-protocol) /
-[fizz-persona](https://github.com/Aid-On/fizz-persona) /
-[fizz-llm-client](https://github.com/Aid-On/fizz-llm-client) /
-[fizz-comment-classifier](https://github.com/Aid-On/fizz-comment-classifier) /
-[fizz-few-shot-retriever](https://github.com/Aid-On/fizz-few-shot-retriever) /
-[fizz-stream-sentence-parser](https://github.com/Aid-On/fizz-stream-sentence-parser) /
-[fizz-conversation-history](https://github.com/Aid-On/fizz-conversation-history) /
-[fizz-thinking-cue-detector](https://github.com/Aid-On/fizz-thinking-cue-detector) /
-[fizz-prompt-builder](https://github.com/Aid-On/fizz-prompt-builder)
+[fizz-protocol](https://github.com/aiviecast/fizz-protocol) /
+[fizz-persona](https://github.com/aiviecast/fizz-persona) /
+[fizz-llm-client](https://github.com/aiviecast/fizz-llm-client) /
+[fizz-comment-classifier](https://github.com/aiviecast/fizz-comment-classifier) /
+[fizz-few-shot-retriever](https://github.com/aiviecast/fizz-few-shot-retriever) /
+[fizz-stream-sentence-parser](https://github.com/aiviecast/fizz-stream-sentence-parser) /
+[fizz-conversation-history](https://github.com/aiviecast/fizz-conversation-history) /
+[fizz-thinking-cue-detector](https://github.com/aiviecast/fizz-thinking-cue-detector) /
+[fizz-prompt-builder](https://github.com/aiviecast/fizz-prompt-builder)
 
 > LLM 層は本来 [almide-ai/almai](https://github.com/almide-ai/almai) を使う計画だったが、
 > almai は 2026-05 以降未メンテで現行 almide (v0.24/v0.25) ではコンパイルできない
 > (streaming callback closure の codegen 不整合 + Value Repr 欠落)。そこで almai と
-> 同形 interface の [fizz-llm-client](https://github.com/Aid-On/fizz-llm-client) を使う。
+> 同形 interface の [fizz-llm-client](https://github.com/aiviecast/fizz-llm-client) を使う。
 > almai が現行 almide で通るようになれば drop-in 置換できる。
 
 ## Usage

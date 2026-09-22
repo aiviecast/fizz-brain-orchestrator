@@ -1,11 +1,11 @@
 # almide.lock — auto-generated, do not edit
 
-fizz_protocol = { git = "https://github.com/Aid-On/fizz-protocol", ref = "v0.2.1", commit = "56e343544c08d9cb8de9746dde2a93387a9d9cac" }
-fizz_persona = { git = "https://github.com/Aid-On/fizz-persona", ref = "v0.2.0", commit = "aa6e2ba75c80c42f637a5cd15c928cf59d0a638b" }
-fizz_llm_client = { git = "https://github.com/Aid-On/fizz-llm-client", ref = "v0.1.0", commit = "2379672b5fcaa3083ddb2954cf8e38fce26bcfbe" }
-fizz_comment_classifier = { git = "https://github.com/Aid-On/fizz-comment-classifier", ref = "v0.1.0", commit = "ad89c661db4cc2238cc4b6eb18f4efb9076529e9" }
-fizz_few_shot_retriever = { git = "https://github.com/Aid-On/fizz-few-shot-retriever", ref = "v0.1.0", commit = "7192a443982317dd34392c12cf2979127b624ebc" }
-fizz_stream_sentence_parser = { git = "https://github.com/Aid-On/fizz-stream-sentence-parser", ref = "v0.1.0", commit = "9771ddbcce8ccf36891aee8565389514216e41f7" }
-fizz_conversation_history = { git = "https://github.com/Aid-On/fizz-conversation-history", ref = "v0.1.1", commit = "cec3ebbd082cd9d534ecd8c216e1e3cb63912e68" }
-fizz_thinking_cue_detector = { git = "https://github.com/Aid-On/fizz-thinking-cue-detector", ref = "v0.1.0", commit = "099489489a007ba0d4d51acfa53e468b6fcd596d" }
-fizz_prompt_builder = { git = "https://github.com/Aid-On/fizz-prompt-builder", ref = "v0.1.1", commit = "4128db5c0cf85cf924054e10b45e47fd914e4c9e" }
+fizz_protocol = { git = "https://github.com/aiviecast/fizz-protocol", ref = "v0.2.1", commit = "56e343544c08d9cb8de9746dde2a93387a9d9cac" }
+fizz_persona = { git = "https://github.com/aiviecast/fizz-persona", ref = "v0.2.0", commit = "aa6e2ba75c80c42f637a5cd15c928cf59d0a638b" }
+fizz_llm_client = { git = "https://github.com/aiviecast/fizz-llm-client", ref = "v0.1.0", commit = "2379672b5fcaa3083ddb2954cf8e38fce26bcfbe" }
+fizz_comment_classifier = { git = "https://github.com/aiviecast/fizz-comment-classifier", ref = "v0.1.0", commit = "ad89c661db4cc2238cc4b6eb18f4efb9076529e9" }
+fizz_few_shot_retriever = { git = "https://github.com/aiviecast/fizz-few-shot-retriever", ref = "v0.1.0", commit = "7192a443982317dd34392c12cf2979127b624ebc" }
+fizz_stream_sentence_parser = { git = "https://github.com/aiviecast/fizz-stream-sentence-parser", ref = "v0.1.0", commit = "9771ddbcce8ccf36891aee8565389514216e41f7" }
+fizz_conversation_history = { git = "https://github.com/aiviecast/fizz-conversation-history", ref = "v0.1.1", commit = "cec3ebbd082cd9d534ecd8c216e1e3cb63912e68" }
+fizz_thinking_cue_detector = { git = "https://github.com/aiviecast/fizz-thinking-cue-detector", ref = "v0.1.0", commit = "099489489a007ba0d4d51acfa53e468b6fcd596d" }
+fizz_prompt_builder = { git = "https://github.com/aiviecast/fizz-prompt-builder", ref = "v0.1.1", commit = "4128db5c0cf85cf924054e10b45e47fd914e4c9e" }
