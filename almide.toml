@@ -4,9 +4,9 @@ version = "0.1.0"
 description = "Fizz brain — compose the comment -> sentence-fragment pipeline (classify, few-shot, prompt, LLM, parse). NDJSON in/out CLI."
 
 [dependencies]
-fizz_protocol = { git = "https://github.com/aiviecast/fizz-protocol", tag = "v0.2.1" }
-fizz_persona = { git = "https://github.com/aiviecast/fizz-persona", tag = "v0.2.0" }
-fizz_llm_client = { git = "https://github.com/aiviecast/fizz-llm-client", tag = "v0.1.0" }
+fizz_protocol = { git = "https://github.com/aiviecast/fizz-protocol", tag = "v0.2.2" }
+fizz_persona = { git = "https://github.com/aiviecast/fizz-persona", tag = "v0.2.1" }
+fizz_llm_client = { git = "https://github.com/aiviecast/fizz-llm-client", tag = "v0.2.1" }
 fizz_comment_classifier = { git = "https://github.com/aiviecast/fizz-comment-classifier", tag = "v0.1.0" }
 fizz_few_shot_retriever = { git = "https://github.com/aiviecast/fizz-few-shot-retriever", tag = "v0.1.0" }
 fizz_stream_sentence_parser = { git = "https://github.com/aiviecast/fizz-stream-sentence-parser", tag = "v0.1.0" }

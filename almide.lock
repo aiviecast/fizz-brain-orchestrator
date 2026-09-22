@@ -1,8 +1,8 @@
 # almide.lock — auto-generated, do not edit
 
-fizz_protocol = { git = "https://github.com/aiviecast/fizz-protocol", ref = "v0.2.1", commit = "56e343544c08d9cb8de9746dde2a93387a9d9cac" }
-fizz_persona = { git = "https://github.com/aiviecast/fizz-persona", ref = "v0.2.0", commit = "aa6e2ba75c80c42f637a5cd15c928cf59d0a638b" }
-fizz_llm_client = { git = "https://github.com/aiviecast/fizz-llm-client", ref = "v0.1.0", commit = "2379672b5fcaa3083ddb2954cf8e38fce26bcfbe" }
+fizz_protocol = { git = "https://github.com/aiviecast/fizz-protocol", ref = "v0.2.2", commit = "9a5be2079917c6b2692a73bf90ae64e4c91d8862" }
+fizz_persona = { git = "https://github.com/aiviecast/fizz-persona", ref = "v0.2.1", commit = "9825ef8e90c204ff81bfba23d2be3e309a31081a" }
+fizz_llm_client = { git = "https://github.com/aiviecast/fizz-llm-client", ref = "v0.2.1", commit = "555ac1d9e5c2041a0e995d13702368c58285ab17" }
 fizz_comment_classifier = { git = "https://github.com/aiviecast/fizz-comment-classifier", ref = "v0.1.0", commit = "ad89c661db4cc2238cc4b6eb18f4efb9076529e9" }
 fizz_few_shot_retriever = { git = "https://github.com/aiviecast/fizz-few-shot-retriever", ref = "v0.1.0", commit = "7192a443982317dd34392c12cf2979127b624ebc" }
 fizz_stream_sentence_parser = { git = "https://github.com/aiviecast/fizz-stream-sentence-parser", ref = "v0.1.0", commit = "9771ddbcce8ccf36891aee8565389514216e41f7" }
