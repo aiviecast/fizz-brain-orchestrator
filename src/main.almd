@@ -61,7 +61,7 @@ effect fn main() -> Unit = {
     err(e) => eprintln("[brain] failed to load persona: ${e}"),
     ok(p)  => {
       eprintln("[brain] persona loaded (${int.to_string(list.len(p.examples))} examples), model=${model}")
-      run(State { persona: p, model: model, history: ch.with_default_cap() })
+      run(State { persona: p, model: model, history: ch.with_default_cap() })!
     },
   }
 }
@@ -123,7 +123,7 @@ effect fn handle(state: State, c: comment.Comment) -> Result[State, String] = {
     },
     ok(resp) => {
       let frags = parser.parse_all(resp.content, parser.default_options())
-      emit_all(frags)
+      emit_all(frags)!
       let h2 = ch.push_assistant(ch.push_user(state.history, c.user, c.text), resp.content)
       ok({ ...state, history: h2 })
     },
